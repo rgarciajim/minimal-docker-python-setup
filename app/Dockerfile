@@ -7,6 +7,7 @@ RUN pip install --find-links wheelhouse \
     flask \
     flask-redis \
     uwsgi
+RUN pip install --upgrade pip
 
 COPY src /app
 COPY uwsgi.ini /etc/uwsgi.ini
