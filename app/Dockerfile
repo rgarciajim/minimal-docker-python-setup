@@ -1,4 +1,4 @@
-FROM advancedclimatesystems/python
+FROM advancedclimatesystems/python:3.4.3
 MAINTAINER Auke Willem Oosterhoff <auke@orangetux.nl>
 
 COPY wheelhouse /wheelhouse
